@@ -18,6 +18,12 @@
 
 function createBookList(books) {
   // your code goes in here, return the ul element
+  data = ""
+  console.log("books-",books)
+  for(i=0; i<books.length; i++){
+    console.log(i, books[i])
+  }
+  
 }
 
 const books = [{
@@ -39,4 +45,4 @@ const books = [{
 
 let ulElement = createBookList(books);
 
-document.querySelector("#bookList").appendChild(ulElement);
+//document.querySelector("#bookList").appendChild(ulElement);

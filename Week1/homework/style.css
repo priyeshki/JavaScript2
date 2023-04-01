@@ -1,1 +1,39 @@
-/* add your styling here */
+/* add your styling here */* {
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  font-family:'Times New Roman', Times, serif;
+}
+
+ul{
+  padding: 1rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap:1rem;
+  list-style-type: none;
+}
+
+li{
+  text-align: center;
+}
+
+h2{
+  line-height: 2rem;
+  font-size: 1rem;
+  color: rgb(69, 30, 159);
+}
+
+img{
+  height: 300px;
+  width: 200px;
+  margin-top: 1rem;
+}
+
+#title{
+    text-align: center;
+    padding-top: 2rem;
+    font-size: 3rem; 
+    color: midnightblue;
+  }
